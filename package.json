@@ -1,0 +1,37 @@
+{
+  "name": "firestore-util",
+  "version": "1.0.0",
+  "description": "Firestore Util",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npx jest ./__tests__/**.test.js"
+  },
+  "author": "aric.vvang@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.3.0",
+    "jest": "^29.7.0",
+    "uuid": "^10.0.0"
+  },
+  "keywords": [
+    "firestore",
+    "firestore-util",
+    "firestore triggers",
+    "cloud firestore triggers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvangwenkun/firestore-util"
+  },
+  "bugs": {
+    "url": "https://github.com/vvangwenkun/firestore-util/issues"
+  },
+  "homepage": "https://github.com/vvangwenkun/firestore-util"
+}
